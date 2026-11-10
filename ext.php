@@ -23,7 +23,7 @@ class ext extends base
 	protected $min_version = '3.3.19';
 
 	/** @var PHP version */
-	protected $php_version = '8.3.36';
+	protected $php_version = '8.1.0';
 
 	/** @var phpBB check version */
 	protected $phpbb_version = '3.3.0';
@@ -64,12 +64,12 @@ class ext extends base
 	}
 
 	/**
-	 * Requires PHP 8.3.36 due to security fixes.
+	 * Requires PHP 8.1.0 or later.
 	 *
 	 * @return bool
 	 */
 	protected function check_php_version()
 	{
-		return PHP_VERSION_ID >= 80336;
+		return PHP_VERSION_ID >= 80100;
 	}
 }
