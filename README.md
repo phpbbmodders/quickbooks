@@ -9,8 +9,8 @@ An extension to add bookmarks to the Quick Links menu.
 [![Total Downloads](https://poser.pugx.org/david63/quickbooks/downloads)](https://packagist.org/packages/david63/quickbooks)
 
 ## Minimum Requirements
-  * phpBB 3.3.0
-  * PHP 7.1.3
+  * phpBB 3.3.19 or later
+  * PHP 8.1 or later
 
 ## Install
  1. [Download the latest release](https://github.com/david63/quickbooks/archive/3.3.zip) and unzip it.
